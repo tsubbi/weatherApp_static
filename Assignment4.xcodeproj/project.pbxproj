@@ -13,6 +13,8 @@
 		4EFDB9092450F823004EBAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFDB9072450F823004EBAA0 /* LaunchScreen.storyboard */; };
 		4EFDB9112450F89F004EBAA0 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFDB9102450F89F004EBAA0 /* City.swift */; };
 		4EFDB9132450F8A8004EBAA0 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFDB9122450F8A8004EBAA0 /* CityViewController.swift */; };
+		A1399BDB2640FC1500E9CDE5 /* CityTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1399BDA2640FC1500E9CDE5 /* CityTabBarViewController.swift */; };
+		A1399BDD26411F1D00E9CDE5 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1399BDC26411F1D00E9CDE5 /* WeatherDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4EFDB90A2450F823004EBAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EFDB9102450F89F004EBAA0 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		4EFDB9122450F8A8004EBAA0 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		A1399BDA2640FC1500E9CDE5 /* CityTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTabBarViewController.swift; sourceTree = "<group>"; };
+		A1399BDC26411F1D00E9CDE5 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				4EFDB8FC2450F821004EBAA0 /* AppDelegate.swift */,
 				4EFDB8FE2450F821004EBAA0 /* SceneDelegate.swift */,
+				A1399BDA2640FC1500E9CDE5 /* CityTabBarViewController.swift */,
 				4EFDB9102450F89F004EBAA0 /* City.swift */,
 				4EFDB9122450F8A8004EBAA0 /* CityViewController.swift */,
+				A1399BDC26411F1D00E9CDE5 /* WeatherDetailsViewController.swift */,
 				4EFDB9052450F823004EBAA0 /* Assets.xcassets */,
 				4EFDB9072450F823004EBAA0 /* LaunchScreen.storyboard */,
 				4EFDB90A2450F823004EBAA0 /* Info.plist */,
@@ -139,7 +145,9 @@
 			files = (
 				4EFDB9132450F8A8004EBAA0 /* CityViewController.swift in Sources */,
 				4EFDB8FD2450F821004EBAA0 /* AppDelegate.swift in Sources */,
+				A1399BDD26411F1D00E9CDE5 /* WeatherDetailsViewController.swift in Sources */,
 				4EFDB9112450F89F004EBAA0 /* City.swift in Sources */,
+				A1399BDB2640FC1500E9CDE5 /* CityTabBarViewController.swift in Sources */,
 				4EFDB8FF2450F821004EBAA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
